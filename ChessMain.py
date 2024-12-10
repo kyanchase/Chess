@@ -12,4 +12,4 @@ IMAGES = {}
 def loadImages():
     pieces = ['wP', 'wR', 'wN', 'wB', 'wK', 'wK', 'wQ', 'bP', 'bR', 'bN', 'bB', 'bK', 'bQ']
     IMAGES[piece] = p.image.load("images/")
->>>>>>> ceb8ab1f240879c44c247e10638a1fa3bea3ed3f
+
