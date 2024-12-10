@@ -10,4 +10,5 @@ IMAGES = {}
 # Initialize a global dictionary of images. This will be called exactly once in the main
 def loadImages():
     pieces = ['wP', 'wR', 'wN', 'wB', 'wK', 'wK', 'wQ', 'bP', 'bR', 'bN', 'bB', 'bK', 'bQ']
-    IMAGES[piece] = p.image.load("images/")
+    for piece in pieces:
+        IMAGES[piece] = p.image.load("images/" + piece + ".png")
